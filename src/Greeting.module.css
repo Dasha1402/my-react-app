@@ -1,0 +1,38 @@
+.card {
+	border: 2px solid #4a90e2;
+	padding: 20px;
+	margin: 15px 0;
+	border-radius: 10px;
+	background-color: #f8faff;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+	font-family: sans-serif;
+	transition: transform 0.2s ease;
+}
+
+.card:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+	color: #1a1a1a;
+	margin: 0 0 10px 0;
+	font-size: 22px;
+}
+
+.age {
+	color: #555;
+	margin: 22px;
+}
+
+.adminBage {
+	display: inline-block;
+	background-color: #ff4757;
+	color: white;
+	padding: 4px 10px;
+	border-radius: 20px;
+	font-size:12px;
+	font-weight:bold;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
